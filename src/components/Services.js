@@ -12,24 +12,10 @@ const Services = () => {
             What I do for clients
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+          I will play a crucial role as a web developer in creating and maintaining an online presence for my clients. I will work closely with them to understand their vision, goals, and target audience. Using programming languages like HTML, CSS, and JavaScript, I will build the structure and functionality of websites to ensure they are user-friendly, visually appealing, and responsive across various devices. 
           </p>
         </div>
-        <div className='grid lg:grid-cols-4 gap-8'>
-          {services.map((service, index) => {
-            const { icon, name, description } = service;
-            return (
-              <div className='bg-secondary p-6 rounded-2xl' key={index}>
-                <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]'>
-                  {icon}
-                </div>
-                <h4 className='text-xl font-medium mb-2'>{name}</h4>
-                <p>{description}</p>
-              </div>
-            );
-          })}
-        </div>
+       
       </div>
     </section>
   );

@@ -4,7 +4,7 @@ import React from 'react';
 import { social } from '../data';
 
 // import logo
-import Logo from '../assets/img/logo.svg';
+
 
 const Footer = () => {
   return (
@@ -22,10 +22,10 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <img src={Logo} alt='' />
+          <h1 style={{fontFamily:"'Brush Script MT', cursive",}} className='text-5xl'>Uday Kiran</h1>
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Cristian Mihai. All rights reserved.
+            &copy; 2024 Uday Kiran. All rights reserved.
           </p>
         </div>
       </div>

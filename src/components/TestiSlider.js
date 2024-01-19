@@ -48,10 +48,7 @@ const TestiSlider = () => {
                   <h5 className='font-body text-2xl mb-8 italic font-normal'>
                     {authorText}
                   </h5>
-                  <div>
-                    <p className='text-lg text-accent'>{authorName}</p>
-                    <p>{authorPosition}</p>
-                  </div>
+                  
                 </div>
               </div>
             </SwiperSlide>

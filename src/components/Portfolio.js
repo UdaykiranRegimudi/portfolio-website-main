@@ -12,8 +12,7 @@ const Portfolio = () => {
             My latest work
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+          I am currently pursuing my B.Tech degree while concurrently leveraging my skills and knowledge as a Frontend Web Developer through an internship at KMD Company.
           </p>
         </div>
         <Projects />
